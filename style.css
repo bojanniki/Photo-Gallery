@@ -9,3 +9,38 @@ body {
   grid-template-rows: repeat(6s, auto); /* 5 equal rows */
   grid-template-columns: auto;
 }
+#main {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+#secondary {
+  font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+}
+.module-separator {
+  --primary-color: #78a642;
+  --x3-cart-width: 480px;
+  scrollbar-color: #bec3c9 rgba(0, 0, 0, 0);
+  font-size: 100%;
+  color: #48545a;
+  font-style: normal;
+  line-height: 1.5;
+  cursor: auto;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.2);
+  font-family: Lato;
+  font-weight: 300 !important;
+  pointer-events: auto;
+  text-align: center;
+  box-sizing: content-box;
+  border: solid #d8dcdf;
+  border-width: 1px 0 0;
+  clear: both;
+  height: 0;
+  -webkit-font-smoothing: antialiased;
+  margin: 2.5rem 0;
+  display: block;
+}

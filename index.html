@@ -4,17 +4,39 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vertical Photo Gallery</title>
-    <!-- Napraviti galeriju fotografija kao na primjeru https://demo.photo.gallery/galleries/landscapes/ -->
+    <!-- Napraviti galeriju fotografija kao na primjeru https://demo.photo.gallery/galleries/landscapes/ 
+     linkovi:https://unsplash.com/photos/a-dirt-road-in-the-middle-of-a-desert-8x4_rmUbTC4
+https://unsplash.com/photos/a-foggy-landscape-with-a-lake-in-the-foreground-LGOX15iP0u0
+https://unsplash.com/photos/a-mountain-covered-in-snow-under-a-cloudy-sky-mGx5-xt1uec
+https://unsplash.com/photos/white-swan-on-body-of-water-during-daytime-m80vgB3Ipt8
+https://unsplash.com/photos/a-snow-covered-mountain-with-trees-in-the-foreground-_Z1fUJ8BEfI
+https://unsplash.com/photos/a-view-of-a-valley-with-mountains-in-the-background-_X_COBMesjs-->
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header>Gallery</header>
+    <header>
+      <h1 id="main">Sweet landscapes</h1>
+      <h2 id="secondary">A few images displaying in a vertical layout.</h2>
+      <hr class="module-separator" />
+    </header>
+
     <div class="gallery">
       <div class="image" id="image1">1</div>
+      <hr class="module-separator" />
       <div class="image" id="image2">2</div>
+      <hr class="module-separator" />
       <div class="image" id="image3">3</div>
+      <hr class="module-separator" />
       <div class="image" id="image4">4</div>
+      <hr class="module-separator" />
       <div class="image" id="image5">5</div>
+      <hr class="module-separator" />
       <div class="image" id="image6">6</div>
     </div>
     <footer>Footer</footer>
